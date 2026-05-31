@@ -1,5 +1,5 @@
 import { Route, Routes } from "react-router";
-import { Hero, Hero2, Navbar } from "./Components";
+import { Hero, Hero2, HowItWorks, Navbar, OurServices, WhyChooseUs } from "./Components";
 
 const App = () => {
   return (
@@ -11,6 +11,9 @@ const App = () => {
           <>
           <Hero />
           <Hero2/>
+          <OurServices/>
+          <WhyChooseUs/>
+          <HowItWorks />
           </>
         } />
       </Routes>
