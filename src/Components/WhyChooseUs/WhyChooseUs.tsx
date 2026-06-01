@@ -18,7 +18,7 @@ const WhyChooseUs = () => {
       <div className="grid grid-cols-1 lg:grid-cols-5 gap-10 items-center">
         
         {/* Left content */}
-        <div className="lg:col-span-2 space-y-4 order-2 lg:order-1">
+        <div className="grid grid-cols-2 lg:flex flex-col lg:col-span-2 space-y-4 order-2 lg:order-1">
           
           <div className="flex gap-4 items-start hover:bg-gray-300 rounded-lg p-3 cursor-pointer group">
             <div className="bg-gray-300 p-3 rounded-full group-hover:bg-white">
@@ -80,7 +80,7 @@ const WhyChooseUs = () => {
             className="w-full max-w-md sm:max-w-lg md:max-w-xl rounded-2xl object-cover"
           />
 
-          <div className="absolute bg-primary text-white left-60 bottom-4 border-0 rounded-xl p-3">
+          <div className="absolute bg-primary text-white sm:left-15 sm:bottom-5 lg:left-60 lg:bottom-4 border-0 rounded-xl p-3">
             <div className="flex items-center">
               <h2 className="text-xl font-bold">15+</h2>
               <p>Years of <br />Certified</p>
