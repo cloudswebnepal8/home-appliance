@@ -5,7 +5,7 @@ import { ourServices, quickLinks } from "../../Constants/footerLink";
 
 const Footer = () => {
   return (
-    <footer className="bg-primary text-gray-300">
+    <footer className="bg-primary text-red-300">
       <div className="grid grid-cols-1 md:grid-cols-6 gap-8 p-10">
         
         {/* Left Section */}
